@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-green: #16A34A;
+  --color-dark-green: #166534;
+  --color-light-green: #DCFCE7;
+  --color-very-light-green: #F0FDF4;
+  --color-section-bg: #F8FAF9;
+  
+  --color-footer-green: #14532D;
+
+  --color-text-primary: #111827;
+  --color-text-secondary: #64748B;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #FFFFFF;
+    color: var(--color-text-primary);
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  .glass-nav {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom: 1px solid rgba(22, 163, 74, 0.15);
+    box-shadow: 0 4px 30px rgba(22, 163, 74, 0.05);
+  }
+
+  .glass-card {
+    background: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(22, 163, 74, 0.15);
+    box-shadow: 0 10px 35px rgba(22, 163, 74, 0.05);
+  }
+  
+  .glass-card:hover {
+    box-shadow: 0 15px 45px rgba(22, 163, 74, 0.12);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(22, 163, 74, 0.3);
+  }
+}
