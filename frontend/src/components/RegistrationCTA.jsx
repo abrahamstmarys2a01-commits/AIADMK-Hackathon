@@ -46,10 +46,10 @@ const RegistrationCTA = ({ onOpenRegistration }) => {
               </div>
             </div>
 
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 w-full lg:w-auto">
               <button 
                 onClick={onOpenRegistration}
-                className="inline-flex items-center justify-center bg-primary-green hover:bg-dark-green text-white px-10 py-5 rounded-full font-bold text-xl transition-all shadow-[0_10px_30px_rgba(22,163,74,0.3)] hover:shadow-[0_15px_40px_rgba(22,163,74,0.4)] hover:-translate-y-1"
+                className="w-full sm:w-auto inline-flex items-center justify-center bg-primary-green hover:bg-dark-green text-white px-10 py-5 rounded-full font-bold text-xl transition-all shadow-[0_10px_30px_rgba(22,163,74,0.3)] hover:shadow-[0_15px_40px_rgba(22,163,74,0.4)] hover:-translate-y-1"
               >
                 REGISTER NOW &rarr;
               </button>

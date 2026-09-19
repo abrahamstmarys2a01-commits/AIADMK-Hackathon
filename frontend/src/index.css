@@ -16,6 +16,8 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    width: 100%;
   }
   
   body {
@@ -23,6 +25,7 @@
     color: var(--color-text-primary);
     font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     overflow-x: hidden;
+    width: 100%;
   }
 }
 

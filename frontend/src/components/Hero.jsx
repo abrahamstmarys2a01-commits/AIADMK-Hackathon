@@ -26,7 +26,7 @@ const Hero = ({ onOpenRegistration }) => {
               <span className="text-xs font-bold tracking-widest text-primary-green uppercase">AIADMK HACKATHON</span>
             </div>
             
-            <h1 className="text-5xl md:text-6xl lg:text-[4.5rem] font-black leading-[1.1] text-gray-900 mb-6 tracking-tight">
+            <h1 className="text-4xl md:text-6xl lg:text-[4.5rem] font-black leading-[1.1] text-gray-900 mb-6 tracking-tight">
               HACKATHON &ndash; <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-green to-blue-600">
                 2026

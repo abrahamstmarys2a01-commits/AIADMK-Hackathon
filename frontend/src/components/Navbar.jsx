@@ -45,10 +45,10 @@ const Navbar = ({ onOpenRegistration }) => {
           {/* Normal Logo */}
           <Link 
             to="/" 
-            className="flex items-center gap-3 transition-transform hover:scale-[1.02]"
+            className="flex items-center gap-2 sm:gap-3 transition-transform hover:scale-[1.02] shrink-0"
           >
-            <img src="/aiadmk-logo.png" alt="AIADMK Logo" className="w-12 h-12 object-contain drop-shadow-sm" />
-            <h1 className="font-black text-xl md:text-2xl leading-none text-text-primary tracking-tight">
+            <img src="/aiadmk-logo.png" alt="AIADMK Logo" className="w-10 h-10 sm:w-12 sm:h-12 object-contain drop-shadow-sm" />
+            <h1 className="font-black text-base sm:text-xl md:text-2xl leading-none text-text-primary tracking-tight">
               AIADMK TECHATHON
             </h1>
           </Link>
