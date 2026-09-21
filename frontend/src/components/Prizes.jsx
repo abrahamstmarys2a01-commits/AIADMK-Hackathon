@@ -29,7 +29,7 @@ const Prizes = () => {
                 damping: 20,
                 delay: 0.2 
               }}
-              className="w-full max-w-xs md:max-w-sm drop-shadow-2xl hover:scale-105 transition-transform duration-300 cursor-pointer"
+              className="w-full max-w-48 md:max-w-56 drop-shadow-2xl hover:scale-105 transition-transform duration-300 cursor-pointer"
             >
               <img 
                 src="/free-entry.png" 
